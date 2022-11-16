@@ -1,0 +1,56 @@
+CREATE TABLE DriveRoute( 
+  	NumberAuto VARCHAR(8),
+  	ModelAuto VARCHAR(30),
+  	StatusAuto VARCHAR (12),
+  	NumberRoute INT(10),
+   	Route VARCHAR(50),
+    	SecondNameDriver VARCHAR(30),
+  	FirstDriver VARCHAR(30),
+ 	LastNameDriver VARCHAR(30),
+  	DATE DRIVER,
+  	Experience INT(10),
+  	TelNumberDriver BIGINT(20),
+  	SecondNameConductor VARCHAR(30),
+  	FirstNameConductor VARCHAR(30),
+  	LastNameConductor VARCHAR(30),
+  	DATETIME CONDUCTOR,
+    	TelNumberConductor);
+
+INSERT INTO DriveRoute (NumberAuto, ModelAuto, StatusAuto, NumberRoute, Route, SecondNameDriver, FirstDriver, LastNameDriver, DATE, Experience, TelNumberDriver, SecondNameConductor, FirstNameConductor, LastNameConductor, DATETIME, TelNumberConductor) 
+VALUES ("Т567КЕ99", "ЛиАЗ-5292","Исправен", 347,"Станция Крюково - Льялово","Барсуков", "Анатолий", "Иванович", (1975-03-15), 10, 89259762702, "Иванова", "Мария", "Семеновна", (1962-01-16), 89259762702),
+
+("Н765ЕК99", "ЛиАЗ-5293", "В ремонте", 509, "Станция Пушкино - Метро Медведково", "Васильев", "Игорь", "Владимирович", (1978-01-30), 15, 89039435622, "Курганская", "Анастасия", "Петровна", (1975-10-30), 89039435622),
+
+("О877ОЕ99", "ЛиАЗ-5256", "Исправен", 509, "Станция Пушкино - Метро Медведково", "Ивашко", "Петр", "Алексеевич", (1981-08-28), 8, 89257356721, "Полянская", "Зинаида", "Александровна", (1979-07-04), 89257356721),
+
+("У954РН99","Ikarus 415", "Исправен", 732 ,"Станция Метро Новые Черёмушки - Улица новаторов", "Трошкин", "Александр", "Александрович", (1988-10-21), 7, 89153780099, "Вишнякова", "Анна", "Петровна", 1961-01-19, 89153780099),
+
+("Р285ОН99","ПАЗ-3237", "В ремонте", 732 ,"Станция Метро Новые Черёмушки - Улица новаторов", "Конев", "Алексей", "Антонович", (1967-11-10), 12, 89259762702, "Пономарёва", "Алла", "Алексеевна", (1989-12-30), 89259762702),
+
+("А936КУ99", "ЛиАЗ-5292", "Исправен", 845, "Станция Бирюлёво - Товарная - Тарный проезд - Станция Бирюлёво-Товарная", "Симашко", "Андрей", "Владимирович", (1985-06-05), 4, 89037356721, "Никульшина", "Вера", "Андреевна", (1991-04-13), 89037356721);
+  
+/*Вывод таблицы для проверки  
+select * from DriveRoute;*/
+
+
+
+
+/*Вывод исправных машин*/
+
+select NumberAuto, ModelAuto, StatusAuto, NumberRoute
+from DriveRoute
+WHERE StatusAuto = 'Исправен';
+
+
+/*Водители стажа больше 4х и меньше 10*/ 
+
+select SecondNameDriver, FirstDriver, LastNameDriver, TelNumberDriver, Experience
+from DriveRoute
+WHERE Experience > 4 AND Experience < 10;
+
+
+/*Исправные машины для 509 маршрута или 732*/
+
+select NumberAuto, ModelAuto, StatusAuto, NumberRoute, Route
+from DriveRoute
+WHERE StatusAuto = 'Исправен' AND (NumberRoute = 509 OR NumberRoute = 732);

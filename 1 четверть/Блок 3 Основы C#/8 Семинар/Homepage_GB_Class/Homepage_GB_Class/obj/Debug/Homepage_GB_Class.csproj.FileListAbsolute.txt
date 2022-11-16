@@ -1,0 +1,8 @@
+C:\Users\dj_ar\OneDrive\Рабочий стол\Homepage_GB_Class\Homepage_GB_Class\obj\Debug\Homepage_GB_Class.csproj.AssemblyReference.cache
+C:\Users\dj_ar\OneDrive\Рабочий стол\Homepage_GB_Class\Homepage_GB_Class\obj\Debug\Homepage_GB_Class.csproj.SuggestedBindingRedirects.cache
+C:\Users\dj_ar\OneDrive\Рабочий стол\Homepage_GB_Class\Homepage_GB_Class\obj\Debug\Homepage_GB_Class.csproj.CoreCompileInputs.cache
+C:\Users\dj_ar\OneDrive\Рабочий стол\Homepage_GB_Class\Homepage_GB_Class\bin\Debug\Homepage_GB_Class.exe.config
+C:\Users\dj_ar\OneDrive\Рабочий стол\Homepage_GB_Class\Homepage_GB_Class\bin\Debug\Homepage_GB_Class.exe
+C:\Users\dj_ar\OneDrive\Рабочий стол\Homepage_GB_Class\Homepage_GB_Class\bin\Debug\Homepage_GB_Class.pdb
+C:\Users\dj_ar\OneDrive\Рабочий стол\Homepage_GB_Class\Homepage_GB_Class\obj\Debug\Homepage_GB_Class.exe
+C:\Users\dj_ar\OneDrive\Рабочий стол\Homepage_GB_Class\Homepage_GB_Class\obj\Debug\Homepage_GB_Class.pdb

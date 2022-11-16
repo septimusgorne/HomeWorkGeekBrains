@@ -1,0 +1,15 @@
+using System;
+
+namespace Homework_GB
+{
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+           //2
+           int a = 5;
+           int b = 7;
+           Console.WriteLine(b > a ? b : a);
+        }
+    }
+}

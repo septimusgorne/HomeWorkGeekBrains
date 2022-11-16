@@ -1,0 +1,15 @@
+C:\Users\dj_ar\OneDrive\Рабочий стол\Homework_GB_5\Homework_GB_5\bin\Debug\net7.0\Homework_GB_5.exe
+C:\Users\dj_ar\OneDrive\Рабочий стол\Homework_GB_5\Homework_GB_5\bin\Debug\net7.0\Homework_GB_5.deps.json
+C:\Users\dj_ar\OneDrive\Рабочий стол\Homework_GB_5\Homework_GB_5\bin\Debug\net7.0\Homework_GB_5.runtimeconfig.json
+C:\Users\dj_ar\OneDrive\Рабочий стол\Homework_GB_5\Homework_GB_5\bin\Debug\net7.0\Homework_GB_5.dll
+C:\Users\dj_ar\OneDrive\Рабочий стол\Homework_GB_5\Homework_GB_5\bin\Debug\net7.0\Homework_GB_5.pdb
+C:\Users\dj_ar\OneDrive\Рабочий стол\Homework_GB_5\Homework_GB_5\obj\Debug\net7.0\Homework_GB_5.csproj.AssemblyReference.cache
+C:\Users\dj_ar\OneDrive\Рабочий стол\Homework_GB_5\Homework_GB_5\obj\Debug\net7.0\Homework_GB_5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dj_ar\OneDrive\Рабочий стол\Homework_GB_5\Homework_GB_5\obj\Debug\net7.0\Homework_GB_5.AssemblyInfoInputs.cache
+C:\Users\dj_ar\OneDrive\Рабочий стол\Homework_GB_5\Homework_GB_5\obj\Debug\net7.0\Homework_GB_5.AssemblyInfo.cs
+C:\Users\dj_ar\OneDrive\Рабочий стол\Homework_GB_5\Homework_GB_5\obj\Debug\net7.0\Homework_GB_5.csproj.CoreCompileInputs.cache
+C:\Users\dj_ar\OneDrive\Рабочий стол\Homework_GB_5\Homework_GB_5\obj\Debug\net7.0\Homework_GB_5.dll
+C:\Users\dj_ar\OneDrive\Рабочий стол\Homework_GB_5\Homework_GB_5\obj\Debug\net7.0\refint\Homework_GB_5.dll
+C:\Users\dj_ar\OneDrive\Рабочий стол\Homework_GB_5\Homework_GB_5\obj\Debug\net7.0\Homework_GB_5.pdb
+C:\Users\dj_ar\OneDrive\Рабочий стол\Homework_GB_5\Homework_GB_5\obj\Debug\net7.0\Homework_GB_5.genruntimeconfig.cache
+C:\Users\dj_ar\OneDrive\Рабочий стол\Homework_GB_5\Homework_GB_5\obj\Debug\net7.0\ref\Homework_GB_5.dll
