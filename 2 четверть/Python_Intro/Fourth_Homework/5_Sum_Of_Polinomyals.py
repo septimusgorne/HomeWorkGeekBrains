@@ -89,7 +89,7 @@ write_file("file_1.txt", create_str(deg1))
 write_file("file_2.txt", create_str(deg2))
 
 ########################################################## нахождение суммы многочлена
-with open('file_1.txt', 'r') as data:
+with open('file_1.txt', 'r') as data:######## открытие файлов
     st1 = data.readlines()
 with open('file_2.txt', 'r') as data:
     st2 = data.readlines()
@@ -109,7 +109,7 @@ else:
     dee = len(arr3)
     for i in range(ll,dee):
         arr_new.append(arr3[i])
-write_file("file34_res.txt", create_str(arr_new))
-with open('file34_res.txt', 'r') as data:
+write_file("file1_res.txt", create_str(arr_new))
+with open('file1_res.txt', 'r') as data:
     st3 = data.readlines()
 print(f"Результирующий многочлен {st3}")
