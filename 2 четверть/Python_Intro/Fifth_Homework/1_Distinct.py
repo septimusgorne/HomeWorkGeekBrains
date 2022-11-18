@@ -10,7 +10,7 @@
 #str = f"{input().split()}"# input str
 str = input()# запусти этот ввод
 #str = "АБВпоискпостроке"# проверка 
-delStr = "АБВ"
+delStr = "абв"
 #print(type(str))#checkType
 
 ##################### Создание файла 2

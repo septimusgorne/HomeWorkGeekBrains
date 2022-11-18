@@ -23,7 +23,7 @@ def draw_board(board):
         board[0+i*3], Style.BRIGHT + Back.GREEN + Fore.RED +  "|", 
         board[1+i*3],Style.BRIGHT + Back.GREEN + Fore.RED + "|", board[2+i*3],Style.BRIGHT + Back.GREEN + Fore.RED + "|")
         print((Style.BRIGHT + Back.GREEN + Fore.RED + "-" )* 13)
-#draw_board(board)
+#draw_board(board)# Проверка
 
 
 def take_input(player_token):
