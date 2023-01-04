@@ -11,7 +11,7 @@ def stdev(nums):
     return (diffs/(len(nums)-1))**(0.5)
 
 #Дисперсия
-def variance(xs):# n - параметр берем как среднее арифм. для смещенной и произвольную выборку для несмещенной дисперсии
+def variance(xs):
     mu = sum(xs) / len (xs)
     n = len(xs)
     n = n-1 if n in range(1, 30) else n  #30
